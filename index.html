@@ -17,18 +17,18 @@
         }
 
         .page {
-            max-width: 80rem;
-            margin: auto;
+            max-width: 1000px;
+            margin: 65px auto 0;
         }
 
         header{
             display: flex;
             direction: column;
-            align-items: center;
-            justify-content: space-between;
-            margin-top: 4.3rem;
+            align-content: center;
+            align-items: baseline;
+            justify-content: space-between; 
+            margin-bottom: 55px;       
         }
-
         .treine-me {
             width: 6.4375rem;
             height: 1.375rem;
@@ -39,6 +39,7 @@
             font-style: normal;
             font-weight: 700;
             line-height: 1.625rem; /* 118.182% */
+            
         }
 
         header > nav > ol {
@@ -51,8 +52,35 @@
             font-style: normal;
             font-weight: 700;
             line-height: normal;
-            
+            list-style: none;
         }
+
+        header > nav > ol > li {
+            width: 3.0625rem;
+            color: var(--1f1534-hyfen, #1F1534);
+            font-family: Mulish;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        header > nav > ol > li:hover {
+            width: 3.1875rem;
+            color: var(--1f1534-hyfen, #1F1534);
+            font-family: Mulish;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        header > nav > ol > li > a {
+            text-decoration: none;
+        }
+
+
+
     </style>
 </head>
 
